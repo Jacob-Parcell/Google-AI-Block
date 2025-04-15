@@ -1,10 +1,8 @@
-var ai_overview = document.getElementsByClassName("YNk70c EjQTId");
+var e = document.getElementsByClassName("bzXtMb M8OgIe dRpWwb")[0];
+var text = e.innerText;
 
-if (ai_overview.length != 0)
+if (text.includes("AI Overview"))
 {
-	while(ai_overview.length > 0){
-
-		ai_overview[0].remove();
-	}
-	document.getElementsByClassName("rfiSsc YNk70c q9ZDaf")[0].style.marginBottom = "30px"
+	e.remove();
+	document.getElementsByClassName("rfiSsc YNk70c q9ZDaf")[0].style.marginBottom = "16px"
 }
