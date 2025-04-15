@@ -1,6 +1,6 @@
 {
     "name": "AI Blocker",
-    "description": "Base Level Extension",
+    "description": "Removes AI Overview from Google Search",
     "version": "1.0",
     "manifest_version": 3,
     "action": {
